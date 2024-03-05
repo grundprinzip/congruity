@@ -13,3 +13,6 @@ def monkey_patch_spark():
 
     _monkey_patch_complete = True
     return
+
+
+monkey_patch_spark()
