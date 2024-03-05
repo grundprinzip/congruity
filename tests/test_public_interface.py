@@ -20,3 +20,4 @@ def test_spark_context_monkey():
     data = [("Java", "20000"), ("Python", "100000"), ("Scala", "3000")]
     with pytest.raises(PySparkNotImplementedError):
         spark.sparkContext.parallelize(data).toDF()
+
